@@ -1,0 +1,70 @@
+body{
+text-align: center;
+background:#67987C; 
+}
+
+#question1, #question2, #question3, #question4, #question5, #results {
+  display:none;
+  width:750px;
+}
+
+#quizarea
+{
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+ margin: 10% 15% 10% 15%;
+color:#191717;
+box-shadow: 2px 2px 2px #FFffff;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+
+.justify-content-start{
+  margin-left: 60px;
+  margin-right: 30px;
+}
+.radio{
+margin-top: 5px;
+ margin-right:10px;
+margin-left: 10px;
+padding: 8px 15px;
+
+} 
+.result-box{
+
+  font-size: 15px;
+
+}
+.result-box table{
+ margin-left: 70px;
+ border-collapse: collapse;
+ width: 70%;
+
+
+}
+.result-box table td{
+border: 2px solid black;
+padding:5px 5px;
+
+text-align: left;
+}
+.result-box .btn{
+  margin-top: 10px;
+  background: #67987C;
+  color: white;
+
+}
+ .btn{
+ background: #67987C;  
+ color: white;
+ font-size: 20px;
+}
+.color{
+  color:#67987C;
+  font-size: 20px;
+}
